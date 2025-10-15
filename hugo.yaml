@@ -62,3 +62,15 @@ params:
         links:
           - text: "Privacy"
             link: "/privacy"
+
+menu:
+  main:
+    - name: "Services"
+      url: "/services"
+      weight: 10
+    - name: "About"
+      url: "/about"
+      weight: 20
+    - name: "Contact"
+      url: "mailto:info@clingstone.com.au"
+      weight: 30
