@@ -1,20 +1,7 @@
-[build.environment]
-  NETLIFY_USE_YARN = "true"
-  YARN_VERSION = "1.22.17"
-
 [build]
-  command = "yarn build"
-  publish = "dist"
+  command = "hugo -v"
+  publish = "public"
 
-[context.deploy-preview]
-  command = "yarn build:preview"
-
-[dev]
-  framework = "hugo"
-  targetPort = 3000
-
-[[plugins]]
-  package = "netlify-plugin-cypress"
-
-  [plugins.inputs]
-    record = true
+[build.environment]
+  # Set if you've installed Hugo locally; otherwise you can omit it
+  HUGO_VERSION = "0.126.1"
