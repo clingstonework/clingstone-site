@@ -1,0 +1,75 @@
+baseURL = "https://www.clingstone.com.au/"
+languageCode = "en-us"
+title = "Clingstone"
+theme = "hugo-fresh"
+
+[params.navbarlogo]
+image = "img/logos/your-logo.png"
+link = "/"
+
+[params.font]
+name = "Inter"
+sizes = [400, 600]
+
+[params.hero]
+title = "Cybersecurity, AI & Cloud — done right."
+subtitle = "Clingstone helps businesses secure, modernize, and scale with consumer technology—safely."
+buttontext = "Contact us"
+buttonlink = "mailto:info@clingstone.com.au"
+image = "img/illustrations/hero.svg"
+
+[[params.section1]]
+title = "Cybersecurity"
+content = "Risk assessments, controls, incident readiness, and security operations tailored to your business."
+image = "img/illustrations/shield.svg"
+
+[[params.section1]]
+title = "AI Enablement"
+content = "Identify high-impact use cases and implement responsible AI—automation, copilots, and data pipelines."
+image = "img/illustrations/ai.svg"
+
+[[params.section1]]
+title = "Cloud Transformation"
+content = "Strategy, migration, and cost governance across AWS, Azure, and Google Cloud."
+image = "img/illustrations/cloud.svg"
+
+[[params.features]]
+title = "Advisory & Roadmaps"
+text = "From current-state assessments to pragmatic 90-day plans aligned to business outcomes."
+
+[[params.features]]
+title = "Implementation"
+text = "Hands-on delivery for security hardening, AI pilots, and cloud landing zones."
+
+[[params.features]]
+title = "Enablement"
+text = "Upskill your teams with playbooks, workshops, and lightweight governance."
+
+[params.cta]
+title = "Let’s talk"
+subtitle = "Tell us your goals; we’ll map a secure path to value in weeks, not months."
+buttontext = "Email us"
+buttonlink = "mailto:info@clingstone.com.au"
+
+[params.footer]
+logo = "img/logos/your-logo.png"
+bulmalogo = false
+
+[[params.footer.socialmedia]]
+link = "mailto:info@clingstone.com.au"
+icon = "envelope"
+
+[params.footer.quicklinks.column1]
+title = "Company"
+[[params.footer.quicklinks.column1.links]]
+text = "About"
+link = "/about"
+[[params.footer.quicklinks.column1.links]]
+text = "Services"
+link = "/services"
+
+[params.footer.quicklinks.column2]
+title = "Legal"
+[[params.footer.quicklinks.column2.links]]
+text = "Privacy"
+link = "/privacy"
