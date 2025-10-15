@@ -1,7 +1,3 @@
-module github.com/StefMa/hugo-fresh/exampleSite
+module clingstone
 
-go 1.12
-
-replace github.com/StefMa/hugo-fresh => ../
-
-require github.com/StefMa/hugo-fresh v1.0.0 // indirect
+go 1.21

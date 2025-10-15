@@ -2,7 +2,9 @@ baseURL: "https://www.clingstone.com.au/"
 languageCode: "en-us"
 title: "Clingstone"
 theme: "hugo-fresh"
-
+module:
+  imports:
+    - path: github.com/StefMa/hugo-fresh
 params:
   navbarlogo:
     image: "img/logos/your-logo.png"
